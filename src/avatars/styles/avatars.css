@@ -1,1 +1,58 @@
 /* 여기에 스타일을 구현해 주세요 */
+.sr-only {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 박스 */
+.mainBox {
+  position: fixed;
+  padding: 100px;
+  background-color: #ffffff;
+}
+.mainBox ul {
+  padding: 0px;
+  margin: 0px;
+}
+/* 프로필 이미지 */
+.avatar {
+  display: inline-block;
+  position: relative;
+}
+
+li.avatar {
+  list-style: none;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.avatar img {
+  width: 64px;
+  border-radius: 50%;
+}
+
+/* 온오프라인 여부 */
+.status {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid white;
+  left: 45px;
+  bottom: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 183);
+}
+.status.online {
+  background-color: #4cfe88;
+}
+.status.offline {
+  background-color: #dbdbdb;
+}

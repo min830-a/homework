@@ -1,16 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko-KR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Avatars 과제</title>
-  <link rel="shortcut icon" href="/src/assets/favicon/likelion.ico" type="image/x-icon" />
-  <link rel="icon" href="/src/assets/favicon/likelion.svg" />
-  <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT-Regular.woff2">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css">
-  <link rel="stylesheet" href="./styles/avatars.css" />
-</head>
-<body>
-  <!-- 여기에 마크업을 구성해 주세요. -->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatars 과제</title>
+    <link rel="shortcut icon" href="/src/assets/favicon/likelion.ico" type="image/x-icon" />
+    <link rel="icon" href="/src/assets/favicon/likelion.svg" />
+    <link rel="preload" as="font" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT-Regular.woff2" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/static/woff2/SUIT.css" />
+    <link rel="stylesheet" href="../avatars/styles/avatars.css" />
+  </head>
+  <body>
+    <!-- 여기에 마크업을 구성해 주세요. -->
+    <h1 class="sr-only">접속상태 표시창</h1>
+    <div class="mainBox">
+      <ul>
+        <li class="avatar">
+          <span class="status offline" aria-label="오프라인"></span>
+          <a href="../avatars/images/face1.jpg" target="_blank" title="김모씨"> <img src="../avatars/images/face1.jpg" alt="김모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status online" aria-label="온라인"></span>
+          <a href="../avatars/images/face2.jpg" target="_blank" title="이모씨"><img src="../avatars/images/face2.jpg" alt="이모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status offline" aria-label="오프라인"></span>
+          <a href="../avatars/images/face3.jpg" target="_blank" title="박모씨"><img src="../avatars/images/face3.jpg" alt="박모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status online"></span>
+          <a href="../avatars/images/face4.jpg" target="_blank" title="이모씨"><img src="../avatars/images/face4.jpg" alt="강모씨" /></a>
+        </li>
+      </ul>
+      <!-- 줄변환 -->
+      <ul>
+        <li class="avatar">
+          <span class="status online"></span>
+          <a href="../avatars/images/face7.jpg" target="_blank" title="유모씨"><img src="../avatars/images/face7.jpg" alt="유모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status online"></span>
+          <a href="../avatars/images/face5.jpg" target="_blank" title="고모씨"><img src="../avatars/images/face5.jpg" alt="고모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status offline" aria-label="오프라인"></span>
+          <a href="../avatars/images/face6.jpg" target="_blank" title="한모씨"><img src="../avatars/images/face6.jpg" alt="한모씨" /></a>
+        </li>
+        <li class="avatar">
+          <span class="status offline" aria-label="오프라인"></span>
+          <a href="../avatars/images/face8.jpg" target="_blank" title="홍모씨"><img src="../avatars/images/face8.jpg" alt="홍모씨" /></a>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
